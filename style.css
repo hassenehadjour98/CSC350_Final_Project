@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f0fe;
+    margin: 0;
+    padding: 20px;
+}
+
+/* LOGIN */
+.login-box {
+    width: 350px;
+    margin: 80px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #aac4ff;
+    text-align: center;
+}
+
+.login-box h1 {
+    color: #1a3a8f;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.login-box h2 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 9px;
+    font-size: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.login-box button {
+    width: 94%;
+    padding: 10px;
+    background-color: #1a3a8f;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #142d72;
+}
+
+/* CONTAINER */
+.container {
+    width: 80%;
+    max-width: 860px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #aac4ff;
+}
+
+/* RUBRIC TABLE */
+.rubric {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+.rubric td, .rubric th {
+    border: 3px solid white;
+    padding: 14px 16px;
+    font-size: 15px;
+}
+
+.title-row td {
+    background-color: #b8b8b8;
+    text-align: center;
+    font-size: 17px;
+}
+
+.info-row td {
+    background-color: #cccccc;
+    vertical-align: top;
+    padding: 16px;
+}
+
+.header-row th {
+    background-color: #cccccc;
+    color: #000;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.header-row th:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+.criteria-row td {
+    background-color: #d9d9d9;
+    vertical-align: middle;
+    height: 65px;
+}
+
+.criteria-row td:first-child {
+    text-align: left;
+}
+
+.criteria-row td:nth-child(2),
+.criteria-row td:nth-child(3) {
+    text-align: center;
+}
+
+.total-row td {
+    background-color: #cccccc;
+    font-size: 15px;
+    padding: 14px 16px;
+}
+
+/* INPUTS */
+.grey-input {
+    width: 70%;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background-color: #d9d9d9;
+}
+
+.wide-input {
+    width: 70%;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.short-input {
+    width: 70px;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.score-input {
+    width: 80px;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+
+/* BUTTONS */
+button {
+    padding: 10px 24px;
+    background-color: #1a3a8f;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #142d72;
+}
+
+/* SUCCESS PAGE */
+.success-box {
+    background-color: #f0f5ff;
+    border: 2px solid #aac4ff;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 10px;
+}
+
+.success-box h2 {
+    color: #1a6e2e;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.info-table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 10px 16px;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.info-table td:first-child {
+    width: 40%;
+    color: #555;
+}
+
+/* ADMIN TABLE */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.admin-table th {
+    background-color: #1a3a8f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.admin-table td {
+    padding: 9px 12px;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+
+.admin-table tr:nth-child(even) {
+    background-color: #e8f0fe;
+}
