@@ -11,12 +11,6 @@ $judges = [
     "dchang"   => ["pass" => "River5", "name" => "Dr. David Chang"]
 ];
 
-if ($username == "admin" && $password == "Admin2025") {
-    $_SESSION['role'] = "admin";
-    header("Location: admin.php");
-    exit();
-}
-
 if (isset($judges[$username]) && $judges[$username]['pass'] == $password) {
     $_SESSION['judge'] = $judges[$username]['name'];
     header("Location: judge.php");
